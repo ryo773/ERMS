@@ -18,14 +18,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::prefix('manager')
-->middleware('can:manager-higher')->group(function(){
- Route::resource('events', EventController::class);
+Route::prefix('manager')->middleware('can:manager-higher')->group(function(){
+    Route::get('events/past', [EventController::class, 'past'])->name('events.past');
+    Route::resource('events', EventController::class);
 });
+
 Route::middleware('can:user-higher')->group(function(){
- Route::get('index', function () {
- dd('user');
- });
+    Route::get('index', function () {
+        dd('user');
+    });
 });
 
 Route::middleware([
