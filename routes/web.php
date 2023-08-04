@@ -15,7 +15,7 @@ use App\Http\Controllers\EventController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('calendar');
 });
 
 Route::prefix('manager')->middleware('can:manager-higher')->group(function(){
