@@ -35,7 +35,7 @@ Route::middleware('can:user-higher')->group(function(){
     });
 
 
-Route::middleware('auth')->get('/{id}', [ReservationController::class, 'detail'])->name('events.detail');
+Route::get('/{id}', [ReservationController::class, 'detail'])->name('events.detail');
 
 // Route::middleware([
 //     'auth:sanctum',
