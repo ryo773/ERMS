@@ -23,8 +23,8 @@
                       $eventInfo = $events->firstWhere('start_date', $currentWeek[$i]['checkDay'] . " " . \Constant::EVENT_TIME[$j] );
                       $eventPeriod = \Carbon\Carbon::parse($eventInfo->start_date)->diffInMinutes($eventInfo->end_date) / 30 - 1;
                     @endphp
-                    <a href="{{ route('events.detail', ['id' => $eventId ]) }}">
-                    <div class="py-1 px-2 h-8 border border-gray-200 text-xs bg-blue-100">
+                    <a href="{{ route('events.detail', ['id' => $eventId ])}}">
+                    <div class="py-1 px-2 h-8 border border-gray-200 text-xs text-blue-500 bg-blue-100">
                         {{ $eventName }}
                     </div>
                     </a>
