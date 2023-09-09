@@ -1,7 +1,7 @@
 <img src="https://github.com/ryo773/ERMS/blob/master/public/images/logo.png" width="320px">
 
 ## 
-<img src="" width="320px">
+<img src="https://github.com/ryo773/ERMS/issues/14#issue-1888573223" width="320px">
 <img src="" width="320px">
 <img src="" width="320px">
 <img src="" width="320px">
