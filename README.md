@@ -1,6 +1,12 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/ryo773/ERMS/blob/master/public/images/logo.png"></a></p>
+<img src="https://github.com/ryo773/ERMS/blob/master/public/images/logo.png" width="320px">
 
-## ダウンロード方法
+## 
+<img src="" width="320px">
+<img src="" width="320px">
+<img src="" width="320px">
+<img src="" width="320px">
+<img src="" width="320px">
+
 git clone
 
 git clone https://github.com/ryo773/erms
