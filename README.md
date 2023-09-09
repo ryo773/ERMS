@@ -3,10 +3,16 @@
 ## 
 <img width="1308" alt="スクリーンショット 2023-09-09 13 08 52" src="https://github.com/ryo773/ERMS/assets/135567732/d99554ba-bcd6-4da3-9d42-4f712d81d1eb">
 <img width="1260" alt="スクリーンショット 2023-09-09 13 09 06" src="https://github.com/ryo773/ERMS/assets/135567732/129cc066-8418-46a0-b172-ba725ca28640">
+<img width="1272" alt="スクリーンショット 2023-09-09 13 09 17" src="https://github.com/ryo773/ERMS/assets/135567732/0d37981f-96da-4900-a5b9-708cf9511e16">
 
-<img src="" width="320px">
-<img src="" width="320px">
-<img src="" width="320px">
+<img width="1259" alt="スクリーンショット 2023-09-09 13 10 04" src="https://github.com/ryo773/ERMS/assets/135567732/a7b50f09-c457-4326-83df-8f9bebf04a3b">
+
+<img width="1262" alt="スクリーンショット 2023-09-09 13 10 17" src="https://github.com/ryo773/ERMS/assets/135567732/b7610572-2055-4248-a708-2387a243b17e">
+
+<img width="1230" alt="スクリーンショット 2023-09-09 13 10 28" src="https://github.com/ryo773/ERMS/assets/135567732/4b4dea15-3b8f-4959-b513-6d588d22c082">
+
+<img width="805" alt="スクリーンショット 2023-09-09 14 06 06" src="https://github.com/ryo773/ERMS/assets/135567732/02cf0573-cad6-4a02-bb0e-30d03b057d4b">
+
 
 git clone
 
