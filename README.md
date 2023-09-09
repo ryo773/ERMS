@@ -1,8 +1,7 @@
 <img src="https://github.com/ryo773/ERMS/blob/master/public/images/logo.png" width="320px">
 
 ## 
-<img src="https://github.com/ryo773/ERMS/issues/14#issue-1888573223" width="320px">
-<img src="" width="320px">
+<img width="1308" alt="スクリーンショット 2023-09-09 13 08 52" src="https://github.com/ryo773/ERMS/assets/135567732/d99554ba-bcd6-4da3-9d42-4f712d81d1eb">
 <img src="" width="320px">
 <img src="" width="320px">
 <img src="" width="320px">
