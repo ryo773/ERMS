@@ -2,6 +2,8 @@
 
 ## 
 <img width="1308" alt="スクリーンショット 2023-09-09 13 08 52" src="https://github.com/ryo773/ERMS/assets/135567732/d99554ba-bcd6-4da3-9d42-4f712d81d1eb">
+<img width="1260" alt="スクリーンショット 2023-09-09 13 09 06" src="https://github.com/ryo773/ERMS/assets/135567732/129cc066-8418-46a0-b172-ba725ca28640">
+
 <img src="" width="320px">
 <img src="" width="320px">
 <img src="" width="320px">
