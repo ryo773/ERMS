@@ -2,7 +2,7 @@
 
 <img src="https://github.com/ryo773/ERMS/blob/master/public/images/logo.png" width="320px">
 
-岡山大学の大学会館の予約・利用の利便性、効率性を向上させるべく、本システムを構築しました。
+大学会館の予約・利用の利便性、効率性を向上させるべく、本システムを構築しました。
 
 # 管理者画面
 ## イベントカレンダー
