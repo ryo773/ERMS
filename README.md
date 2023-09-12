@@ -46,13 +46,13 @@
 <p>通知機能</p>
 
 ## Requirement
-"php": "^8.0.2",
-"guzzlehttp/guzzle": "^7.2",
-"laravel/framework": "^9.19",
-"laravel/jetstream": "^3.0",
-"laravel/sanctum": "^3.0",
-"laravel/tinker": "^2.7",
-"livewire/livewire": "^2.11"
+<p>"php": "^8.0.2"</p>
+<p>"guzzlehttp/guzzle": "^7.2"</p>
+<p>"laravel/framework": "^9.19"<p>
+<p>"laravel/jetstream": "^3.0"</p>
+<p>"laravel/sanctum": "^3.0"</p>
+<p>"laravel/tinker": "^2.7"</p>
+<p>"livewire/livewire": "^2.11"</p>
 
 ## Installation
 GitHubからファイルをクローン
