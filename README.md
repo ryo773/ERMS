@@ -2,11 +2,7 @@
 
 <img src="https://github.com/ryo773/ERMS/blob/master/public/images/logo.png" width="320px">
 
-ゲーム好きな人が一緒に遊ぶ仲間を探すことができるマッチングアプリ
-自身がゲーム好きであり、一緒にゲームを遊ぶ仲間を探すことが難しいと感じたことからこのアプリケーションの開発に取り組む.
-仲間を探したいゲームを選択し、プロフィールを設定した後マッチング画面に出てくる人をGood or Badで選択できる.
-お互いにGoodを選択した人同士でマッチングした後にはチャットで連絡を取ることも可能.
-
+岡山大学の大学会館の予約・利用の利便性、効率性を向上させるべく、本システムを構築しました。
 
 # 管理者画面
 ## イベントカレンダー
@@ -46,64 +42,58 @@
 <p>・reservationsテーブル：ユーザーの予約情報を保存するテーブル</p>
 
 ## Futures
-<p>マッチング機能</p>
-<p>ログイン機能＆LINEログイン</p>
-<p>リアルタイムチャット機能</p>
-<p>マイページ＆プロフィール変更機能</p>
+<p>メールアドレス認証機能</p>
 <p>通知機能</p>
 
-## Future features
- <p>管理者ページの追加(新ゲームの追加などを行う)</p>
- <p>ゲーム別プロフィールの設定</p>
- <p>マッチング通知をLINEに通知</p>
- <p>チャット機能の強化(画像やファイルなどを送れるようにする)</p>
- <p>チャットのメッセージを全件取得から最新の何件かを取得するように変更する</p>
-
 ## Requirement
-php ^7.2.5|~8.0
-doctrine/dbal ^3.4
-fruitcake/laravel-cors ^2.0
-guzzlehttp/guzzle ^7.0.1
-laravel/framework ^8.75
-laravel/sanctum ^2.11
-laravel/tinker ^2.5
-pusher/pusher-php-server ^7.0
-league/flysystem-aws-s3-v3 ~1.0
-laravel/ui 3.*
-
+"php": "^8.0.2",
+"guzzlehttp/guzzle": "^7.2",
+"laravel/framework": "^9.19",
+"laravel/jetstream": "^3.0",
+"laravel/sanctum": "^3.0",
+"laravel/tinker": "^2.7",
+"livewire/livewire": "^2.11"
 
 ## Installation
 GitHubからファイルをクローン
 ```bash
-https://github.com/ryo773/ERMS
+https://github.com/ryo773/erms.git
 ```
 vendorファイルとcomposer.lockを作成
 ```bash
-https://github.com/ryo773/ERMS
+cd erms/
+composer install
 ```
 .envファイルを作成
 ```bash
-https://github.com/ryo773/ERMS
+cp .env.example .env
 ```
 .envファイル内の項目を変更してデータベースを有効化
 ```bash
-https://github.com/ryo773/ERMS
+DB_DATABASE=<使用するデータベース名>
+DB_USERNAME=<ユーザーの名前>
+DB_PASSWORD=<データベースのパスワード>
 ```
 .envファイル内の項目を変更してpusherを有効化(pusherのAppKeysを設定)
 ```bash
-https://github.com/ryo773/ERMS
+BROADCAST_DRIVER=pusher
+
+PUSHER_APP_ID=<App Keysのapp_id>
+PUSHER_APP_KEY=<App Keysのkey>
+PUSHER_APP_SECRET=<App Keysのsecret>
+PUSHER_APP_CLUSTER=<App Keysのcluster>
 ```
 アプリケーションキーを作成
 ```bash
-https://github.com/ryo773/ERMS
+php artisan key:generate
 ```
-マイグレーションを実行
+マイグレーションとシーディングを実行
 ```bash
-https://github.com/ryo773/ERMS
+php artisan migrate --seed
 ```
 ストレージをリンク
 ```bash
-https://github.com/ryo773/ERMS
+php artisan storage:link
 ```
 
 ## Usage
@@ -118,9 +108,7 @@ php artisan serve --port=8080
 ## Author
 <p>・作成者: 小野凌平</p>
 <p>・所属: 岡山大学　経済学部　経済学科</p>
-<p>・E-mail: <ryohei2323dat@gmail.com></p>
-
-## Licence
+<p>・E-mail: ryohei2323dat@gmail.com</p>
 
 
 
